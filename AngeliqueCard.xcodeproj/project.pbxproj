@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A23DD32256C147700F5F353 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A23DD31256C147700F5F353 /* InfoView.swift */; };
 		3A8EA85E25681B8F0060E259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EA85D25681B8F0060E259 /* AppDelegate.swift */; };
 		3A8EA86025681B8F0060E259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EA85F25681B8F0060E259 /* SceneDelegate.swift */; };
 		3A8EA86225681B8F0060E259 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EA86125681B8F0060E259 /* ContentView.swift */; };
 		3A8EA86425681B900060E259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8EA86325681B900060E259 /* Assets.xcassets */; };
 		3A8EA86725681B900060E259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8EA86625681B900060E259 /* Preview Assets.xcassets */; };
 		3A8EA86A25681B900060E259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8EA86825681B900060E259 /* LaunchScreen.storyboard */; };
+		3A8EA874256825400060E259 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A8EA873256825400060E259 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A23DD31256C147700F5F353 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		3A8EA85A25681B8F0060E259 /* AngeliqueCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngeliqueCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8EA85D25681B8F0060E259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A8EA85F25681B8F0060E259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		3A8EA86625681B900060E259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A8EA86925681B900060E259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8EA86B25681B900060E259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8EA873256825400060E259 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		3A8EA85C25681B8F0060E259 /* AngeliqueCard */ = {
 			isa = PBXGroup;
 			children = (
+				3A8EA8722568250C0060E259 /* Fonts */,
 				3A8EA85D25681B8F0060E259 /* AppDelegate.swift */,
 				3A8EA85F25681B8F0060E259 /* SceneDelegate.swift */,
 				3A8EA86125681B8F0060E259 /* ContentView.swift */,
+				3A23DD31256C147700F5F353 /* InfoView.swift */,
 				3A8EA86325681B900060E259 /* Assets.xcassets */,
 				3A8EA86825681B900060E259 /* LaunchScreen.storyboard */,
 				3A8EA86B25681B900060E259 /* Info.plist */,
@@ -73,6 +79,14 @@
 				3A8EA86625681B900060E259 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A8EA8722568250C0060E259 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3A8EA873256825400060E259 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A8EA86A25681B900060E259 /* LaunchScreen.storyboard in Resources */,
+				3A8EA874256825400060E259 /* Pacifico-Regular.ttf in Resources */,
 				3A8EA86725681B900060E259 /* Preview Assets.xcassets in Resources */,
 				3A8EA86425681B900060E259 /* Assets.xcassets in Resources */,
 			);
@@ -145,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A23DD32256C147700F5F353 /* InfoView.swift in Sources */,
 				3A8EA85E25681B8F0060E259 /* AppDelegate.swift in Sources */,
 				3A8EA86025681B8F0060E259 /* SceneDelegate.swift in Sources */,
 				3A8EA86225681B8F0060E259 /* ContentView.swift in Sources */,
